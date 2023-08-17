@@ -1,0 +1,21 @@
+<nav [ngClass]="{
+'bg-transparent': scrollYPosition < 85,
+'header-animation primary-gradient-bg bottom-shadow': scrollYPosition >= 85
+}" class="position-fixed w-100" id="header" style="z-index: 11;">
+  <div class="container-lg d-flex align-items-center justify-content-between px-md-5 py-2">
+    <div class="d-flex justify-content-center align-items-center">
+      <a href="https://www.facebook.com">
+        <i class="bi bi-facebook medium-icon text-white"></i>
+      </a>
+      <a class="mx-4" href="https://www.facebook.com">
+        <i class="bi bi-linkedin medium-icon text-white"></i>
+      </a>
+      <a href="https://www.facebook.com">
+        <i class="bi bi-github medium-icon text-white"></i>
+      </a>
+    </div>
+    <a (click)="openDialog()">
+      <i class="bi bi-list big-icon text-white"></i>
+    </a>
+  </div>
+</nav>

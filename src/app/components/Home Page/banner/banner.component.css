@@ -1,0 +1,91 @@
+#banner-image {
+  background: url(src/assets/images/banner.jpg) no-repeat scroll center / cover;
+  color: #fff;
+  padding: 35px 0;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+#banner-image::before {
+  background: url(src/assets/images/transparent.png) repeat scroll center center / cover;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#banner-image::after {
+  background: var(--primary-gradient-color);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.78;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#main-title h1 {
+  font-size: 60px;
+}
+
+#main-title h3 {
+  font-size: 30px;
+}
+
+#main-title p {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 420px) {
+  #main-title h1 {
+    font-size: 80px;
+  }
+
+  #main-title h3 {
+    font-size: 38px;
+  }
+
+  #main-title p {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  #main-title h1 {
+    font-size: 100px;
+  }
+
+  #main-title h3 {
+    font-size: 50px;
+  }
+
+  #main-title p {
+    font-size: 28px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  #main-title h1 {
+    font-size: 100px;
+  }
+
+  #main-title h3 {
+    font-size: 50px;
+  }
+
+  #main-title p {
+    font-size: 28px;
+  }
+}
+
+#role::before {
+  content: '\200B';
+}
+
+

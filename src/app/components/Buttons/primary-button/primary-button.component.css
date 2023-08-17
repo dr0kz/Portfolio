@@ -1,0 +1,18 @@
+.custom-button {
+  width: 200px;
+  border: 0;
+  height: 46px;
+  font-weight: 800;
+  font-size: 17px;
+  transition: all 0.19s;
+  border:1px solid black;
+  box-shadow: none;
+}
+
+
+.custom-button:hover {
+  box-shadow: var(--secondary-color) 0px 2px 4px 0px, var(--secondary-color) 0px 2px 16px 0px;
+  color: var(--secondary-color) !important;
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--secondary-color);
+}

@@ -1,0 +1,21 @@
+.hobby:hover div {
+  background: var(--primary-gradient-color);
+}
+
+.hobby div i {
+  color: var(--primary-color);
+  transition: all 0.30s linear;
+}
+
+.hobby:hover div i {
+  color: white;
+}
+
+.hobby span {
+  opacity: 0;
+}
+
+.hobby:hover span {
+  opacity: 1;
+}
+

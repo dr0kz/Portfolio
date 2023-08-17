@@ -1,0 +1,14 @@
+<div class="text-start mt-1">
+  <span class="fs-6">{{skillText}}</span>
+  <div class="d-flex align-items-center">
+    <div class="bg-black position-relative w-100" style="height:5px;">
+      <div class="h-100 primary-bg" [ngStyle]="{width:calculatePercentageFill()+'%'}">
+      </div>
+      <div [ngStyle]="{left: calculatePercentageFill()-2+'%'}"
+           style="width:14px; height:14px; top:50%; transform: translateY(-50%);"
+           class="rounded-circle position-absolute primary-bg"></div>
+    </div>
+    <span class="fw-lighter text-nowrap ms-3">{{experienceInYears}}+ years</span>
+  </div>
+
+</div>

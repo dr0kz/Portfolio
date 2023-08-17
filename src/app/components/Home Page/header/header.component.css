@@ -1,0 +1,16 @@
+.header-primary-gradient-bg {
+  background: var(--primary-gradient-color)
+}
+
+.header-animation {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    padding-bottom: 15px;
+  }
+  100% {
+    padding-bottom: 0;
+  }
+}
